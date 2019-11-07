@@ -24,7 +24,7 @@ public class VerifyURLchanged {
         // enter any email
         WebElement emailInput=driver.findElement(By.name("email"));
 
-        emailInput.sendKeys("redox1972@gmail.com");
+        emailInput.sendKeys("testg@gmail.com");
 
         WebElement retrievePasswordButton=driver.findElement(By.id("form_submit"));
 
