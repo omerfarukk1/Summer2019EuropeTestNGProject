@@ -24,11 +24,11 @@ public class VerifyURLnotChanged {
 
         String  expectedUrl=driver.getCurrentUrl();
 
-        // click on retreive password
+        // click on retrieve password
 
-        WebElement retreivePasswordButton = driver.findElement(By.id("form_submit"));
+        WebElement retrievePasswordButton=driver.findElement(By.id("form_submit"));
 
-        retreivePasswordButton.click();
+        retrievePasswordButton.click();
 
         String actualUrl=driver.getCurrentUrl();
 
