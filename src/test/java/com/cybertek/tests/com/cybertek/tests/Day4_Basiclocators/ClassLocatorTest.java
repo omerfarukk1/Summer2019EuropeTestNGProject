@@ -29,7 +29,7 @@ public class ClassLocatorTest {
 
         System.out.println(driver.findElement(By.className("h3")).getText());
 
-
+         driver.quit();
 
 
 

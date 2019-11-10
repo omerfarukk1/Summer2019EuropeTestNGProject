@@ -26,8 +26,9 @@ public class VerifyURLchanged {
 
         emailInput.sendKeys("testg@gmail.com");
 
+        // locate to password button
         WebElement retrievePasswordButton=driver.findElement(By.id("form_submit"));
-
+        // click button
         retrievePasswordButton.click();
 
         String expectedUrl="http://practice.cybertekschool.com/email_sent";
