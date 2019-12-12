@@ -63,8 +63,8 @@ public class WebTableExample {
 
     @Test
     public void getRow() {
-//        WebElement secondRow  = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[2]"));
-//        System.out.println(secondRow.getText());
+          WebElement secondRow  = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[2]"));
+          System.out.println(secondRow.getText());
         //get all the rows dynamically. we can do in 2 steps
         //1.get the number of rows
         //based on number of rows, iterate each row
@@ -80,7 +80,7 @@ public class WebTableExample {
 
     @Test
     public void getAllCellsInRow() {
-        List<WebElement> allCellsInOneRow = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr[1]/td"));
+        List<WebElement> allCellsInOneRow = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr[4]/td"));
         for (WebElement cell : allCellsInOneRow) {
             System.out.println(cell.getText());
         }
