@@ -74,6 +74,8 @@ public class TestBase {
             // capture the exception
             extentLogger.fail(result.getThrowable());
 
+        }else if(result.getStatus()==ITestResult.SKIP){
+            extentLogger.skip("Test skipped"+result.getName());
         }
 
 
