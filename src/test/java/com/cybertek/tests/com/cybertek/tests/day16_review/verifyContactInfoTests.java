@@ -12,6 +12,17 @@ import org.testng.annotations.Test;
 
 public class verifyContactInfoTests extends TestBase {
 
+    /*
+    * open the chrome
+    go to qa3.vytrack
+    login as a sales manager
+    navigate to customers ->contacts
+    click on email mbrackstone9@example.com
+    verify that full name is Ms Mariam Brackstone
+    verify that email is mbrackstone9@example.com
+    verify that phone number is +18982323434
+    * */
+
 
     @Test
     public void contactDetailsTest(){
