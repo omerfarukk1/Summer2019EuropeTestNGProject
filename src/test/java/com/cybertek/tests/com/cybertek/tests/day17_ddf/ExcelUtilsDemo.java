@@ -39,7 +39,7 @@ public class ExcelUtilsDemo {
      }
 
       String[][] dataArray=qa3short.getDataArray();
-
+     // print the array
      System.out.println(Arrays.deepToString(dataArray));
  }
 }
